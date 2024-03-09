@@ -3,236 +3,55 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Exo 2", sans-serif;
 }
 
-/* NAVBAR HERE  */
+/* background-color: #264653; */
+
 .navbar {
+    height: 10vh;
+    width: 100%;
+    padding: 0px 80px;
+    background-color: #264653;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #264653;
-    padding: 0px 100px;
-    background-color: white;
-    height: 10vh;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    box-shadow: 0px 0px 5px #264653;
+    box-shadow: 0px 0px 10px red;
 }
 
 .logo-side {
     display: flex;
-    align-items: center;
     gap: 5px;
-}
-
-.logo-Image {
-    height: 40px;
-}
-
-.logo-text {
-    font-size: 25px;
-}
-
-.text {
-    color: tomato;
-}
-
-.manu-side {
-    display: flex;
     align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+    width: 150px;
+}
+
+.manu-list {
+    display: flex;
     gap: 35px;
     list-style: none;
 }
 
 .link-tag {
-    font-weight: bold;
     text-decoration: none;
-    color: #264653;
-    transition: .3s;
+    color: white;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    transition: .5s;
+    border-radius: 8px;
 }
 
 .link-tag:hover {
-    color: tomato;
+    border: 2px solid red;
+    color: red;
 }
 
-/* NAVBAR CLOSE */
-
-/* BANNER HERE */
 .banner {
-    padding: 0px 100px;
     height: 90vh;
     width: 100%;
     background-color: #264653;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.banner-left {
-    width: 50%;
-}
-
-.banner-left h1 {
-    font-size: 45px;
-    color: white;
-    padding: 15px 0px;
-}
-
-.banner-left p {
-    color: white;
-}
-
-.banner-right {
-    width: 50%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-.btn {
-    padding: 10px 30px;
-    color: white;
-    background-color: tomato;
-    font-weight: bold;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    transition: .3s;
-}
-
-.btn:hover {
-    color: tomato;
-    background-color: white;
-    box-shadow: 0px 0px 10px white;
-}
-
-/* BANNER CLOSE*/
-
-/* Fetured HERE  */
-.fetured {
-    padding: 0px 100px;
-    height: 100%;
-    width: 100%;
-}
-
-.fetured-heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 0px 80px 0px;
-}
-
-.fetured-heading h1 {
-    font-size: 35px;
-    color: #264653;
-}
-
-.fetured-heading p {
-    padding: 10px 0px 5px 0px;
-}
-
-.fetured-border {
-    height: 1px;
-    width: 80px;
-    background-color: tomato;
-}
-
-.bike-contant {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    padding-bottom: 90px;
-}
-
-.bike-card {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.feature-bike {
-    height: 300px;
-}
-
-/* Fetured CLOSE  */
-
-.latest-news {
-    height: 100%;
-    width: 100%;
-    padding: 0px 100px;
-
-}
-
-.latest-heading h1 {
-    color: #264653;
-    font-size: 35px;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.latest-image {
-    height: 300px;
-    width: 100%;
-    border-radius: 20px;
-}
-
-.latest-heading {
-    font-weight: 25px;
-}
-
-.latest-news-contant {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-bottom: 50px;
-}
-
-.latest-news-card {
-    height: 100%;
-    width: 100%;
-    border: 1px solid rgb(173, 162, 162);
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.latest-news-card h4 {
-    font-size: 25px;
-    color: #264653;
-    padding: 10px 0px;
-}
-
-.latest-news-card p {
-    color: gray;
-    height: 80px;
-}
-
-.latest-news-btn {
-    padding: 10px 30px;
-    border: 1px solid tomato;
-    background: transparent;
-    border-radius: 5px;
-    margin: 30px 0px 0px 0px;
-    font-weight: bold;
-    color: tomato;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.latest-news-btn:hover {
-    background-color: tomato;
-    color: white;
-}
-
-.client-heading {
-    font-size: 35px;
-    color: #264653;
-    text-align: center;
 }
